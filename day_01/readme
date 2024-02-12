@@ -1,0 +1,29 @@
+For Typescript Installation:
+
+Install node js
+Install typescript
+	 npm i -g typescript  // npm install -g typescript 
+
+for porject creation you have to write below command 	npm init -y  tsc --init
+npm init -y will create nodejs project with default settings and create package.json file
+tsc --init will initialize typescript in this project and create tsconfig.json file
+vs code install
+how to open vs code in particular directory
+code .	
+
+Difference between let, const and var:
+
+1. let:
+  a. The scope of a let variable is block scope.
+  b. It can be updated but cannot be re-declared in the same scope.
+  c. It can be declared without initialization.
+
+2. const:
+  a.The scope of a const variable is block scope.
+  b.It can neither be updated or re-declared in any scope.
+  c.It cannot be declared without initialization.
+
+3. var:
+  a.The scope of a var variable is functional or global scope.	
+  b.It can be updated and re-declared in the same scope.	
+  c.It can be declared without initialization.	
